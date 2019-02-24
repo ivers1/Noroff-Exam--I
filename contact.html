@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>MicroSite</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="space travel and technology">
+<meta name="keywords" content="space, rocket, launch, exploration, technology, future">          
+<link href="style.css" rel="stylesheet"> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+    
+<body>
+<script src="script.js"></script>      
+<header>
+  <a href="index.html" class="header-brand">SpaceX</a>
+    <nav>
+        <ul>
+        <li><a href="space.html">Space</a></li>
+        <li><a href="about.html">About</a></li>    
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>     
+    </nav>
+</header>  
+<main> 
+   <section class="parallax">
+    <div class="parallax-inner">    
+    <h1 class="parallax-h1">SpaceX</h1>
+    <p class="parallax-p">Contact</p>
+    </div>    
+    </section>
+    <!--Subheader-->
+
+<div class="subheader-wrapper"> 
+    <div class="subheader-flex-container">
+   <p class="subbox date" id="date"></p>
+   <p class="subbox time" id="time"></p>
+    <p class="subbox txt">Countdown to launch</p>
+<p class="subbox laun" id="launch"></p>        
+</div>  
+</div>   
+<div class="icons">
+<ul>
+<a href="#"><li class="facebook"><i class="fab fa-facebook" style="font-size: 30px"></i></li></a>
+<a href="#"><li class="twitter"><i class="fab fa-twitter" style="font-size: 30px"></i></li></a>   
+<a href="#"><li class="youtube"><i class="fab fa-youtube-square" style="font-size: 30px"></i></li></a>   
+<a href="#"><li class="instagram"><i class="fab fa-instagram" style="font-size: 30px"></i></li></a>       
+</ul>    
+</div>    
+    
+    
+    
+   <div class="wrapper">
+       <section class="form-container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+    </section>       
+</div>       
+</main>
+   <footer><center>
+    <a href="#"><img src="img/SpaceX_logo_blue_Space_X-700x86.png" height="40" width="160"></a>    
+    
+    </center></footer>
+</body>
+</html>
